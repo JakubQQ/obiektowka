@@ -5,7 +5,7 @@
 #include <filesystem>
 #include <iostream>
 #include <vector>
-//Test branch
+//Test branch JakubQ
 Model ImportSTLModel(const char* filename) {
     if (!std::filesystem::exists(filename)) {
         std::cerr << "Plik STL nie istnieje: " << filename << std::endl;
